@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.meraki.tcnvending'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.meraki.tcnvending'
+        minSdk 23
+        targetSdk 34
+        versionCode 90
+        versionName '9.0.0-Enterprise'
+    }
+}
